@@ -1,0 +1,44 @@
+{
+  "linters": {
+    "chmod": {
+      "type": "chmod"
+    },
+    "filename": {
+      "type": "filename"
+    },
+    "generated": {
+      "type": "generated"
+    },
+    "json": {
+      "type": "json",
+      "include": [
+        "(^\\.arcconfig$)",
+        "(^\\.arclint$)",
+        "(^\\.arcunit$)",
+        "(\\.json$)"
+      ]
+    },
+    "merge-conflict": {
+      "type": "merge-conflict"
+    },
+    "nolint": {
+      "type": "nolint"
+    },
+    "spelling": {
+      "type": "spelling"
+    },
+
+    "php": {
+      "type": "php",
+      "include": "(\\.py$)"
+    },
+    "xhpast": {
+      "type": "xhpast",
+      "include": "(\\.php$)"
+    },
+    "flake": {
+      "type": "flake8",
+      "include": "(\\.py$)"
+    }
+  }
+}
