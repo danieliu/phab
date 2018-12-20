@@ -39,6 +39,10 @@
     "flake": {
       "type": "flake8",
       "include": "(\\.py$)"
+    },
+    "jshint": {
+      "type": "jshint",
+      "include": "(\\.js$)"
     }
   }
 }
