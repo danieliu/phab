@@ -3,8 +3,8 @@
 import os
 
 
-
 def run():
+    print(os.path.cwd())
     print('Hello world')
 
 
