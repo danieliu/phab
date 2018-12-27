@@ -1,4 +1,6 @@
 {
+  "base": "git:merge-base(origin/master)",
+  "history.immutable": false,
   "phabricator.uri": "https://phabricator.danielliu.me",
   "repository.callsign": "PHAB"
 }
